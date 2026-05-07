@@ -35,9 +35,11 @@ O código está organizado em pacotes seguindo o padrão de mercado:
 
 Ao rodar o sistema, você verá a simulação de diferentes cenários:
 
+
 - Pagamento aprovado para diferentes categorias.
 
 <img width="487" height="773" alt="Captura de tela 2026-05-07 200720" src="https://github.com/user-attachments/assets/d030e261-d78c-4be0-9470-9dd16a97024c" />
+
 
 
 - Bloqueio de passagem por saldo insuficiente.
@@ -46,9 +48,10 @@ Ao rodar o sistema, você verá a simulação de diferentes cenários:
 <img width="793" height="303" alt="Captura de tela 2026-05-07 200744" src="https://github.com/user-attachments/assets/d1c9fadc-5bc2-4da3-99b3-427c47667e9e" />
 
 
+
 - Processo de recarga e atualização automática do extrato.
 
-  <img width="866" height="637" alt="Captura de tela 2026-05-07 200757" src="https://github.com/user-attachments/assets/fe6e991a-1530-4bd2-be70-aee611037eac" />
+ <img width="866" height="637" alt="Captura de tela 2026-05-07 200757" src="https://github.com/user-attachments/assets/fe6e991a-1530-4bd2-be70-aee611037eac" />
 
 
 

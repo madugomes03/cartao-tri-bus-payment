@@ -6,9 +6,9 @@ Este projeto é um simulador de validador de passagens de transporte público, d
 
 Neste projeto, foquei em criar um código limpo, seguro e fácil de manter. As principais tecnologias e conceitos utilizados foram:
 
-* **Java 17+**: Uso de recursos modernos da linguagem.
+* **Java 17+**
 * **Encapsulamento e Imutabilidade**: Atributos privados e uso de `final` para garantir a integridade dos dados (como número do cartão e titular).
-* **Polimorfismo com Enums**: Centralização das regras de tarifas (`COMUM`, `ESTUDANTE`, `IDOSO`, `PCD`) em um único lugar.
+* **Enums**: Centralização das regras de tarifas (`COMUM`, `ESTUDANTE`, `IDOSO`, `PCD`) em um único lugar.
 * **Tratamento de Exceções Personalizadas**: Criação da `SaldoInsuficienteException` para um fluxo de erro mais claro.
 * **Programação Defensiva**: Validação de dados de entrada nos construtores e métodos para evitar estados inválidos do sistema.
 * **Java Collections**: Uso de `ArrayList` para o histórico e `Collections.unmodifiableList` para proteger os dados de transações.
@@ -21,7 +21,7 @@ O código está organizado em pacotes seguindo o padrão de mercado:
 * `service`: Contém a lógica de negócio do leitor de passagens (`LeitorPassagem`).
 * `app`: Ponto de entrada do sistema (`Main`).
 
-## 🛠️ Como rodar o projeto
+## Como rodar o projeto
 
 1.  Certifique-se de ter o **JDK 17** ou superior instalado.
 2.  Clone o repositório:
@@ -31,7 +31,7 @@ O código está organizado em pacotes seguindo o padrão de mercado:
 3.  Abra o projeto no **IntelliJ IDEA** (ou sua IDE de preferência).
 4.  Execute a classe `Main.java` localizada no pacote `app`.
 
-## 📝 Exemplo de Saída (Console)
+## Exemplo de Saída (Console)
 
 Ao rodar o sistema, você verá a simulação de diferentes cenários:
 - Pagamento aprovado para diferentes categorias.
